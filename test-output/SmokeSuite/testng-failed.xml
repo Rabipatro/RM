@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeSuite]">
+  <test name="SmokeScenario(failed)">
+    <classes>
+      <class name="testcases.VerifyLoginPageWithReports">
+        <methods>
+          <include name="testHomePage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.VerifyLoginPageWithReports -->
+      <class name="testcases.VerifyLoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.VerifyLoginPage -->
+      <class name="testcases.VerifyHomePage">
+        <methods>
+          <include name="testHomePage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.VerifyHomePage -->
+    </classes>
+  </test> <!-- SmokeScenario(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->
